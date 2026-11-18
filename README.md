@@ -32,8 +32,16 @@ outputs.
 | [`HW4`](1400-1-fatemizadeh/HW4) | Assignment PDF |
 | [`Project`](1400-1-fatemizadeh/Project) | Object detection plus depth estimation: YOLO with a FastDepth-style network on NYU Depth V2 (with Alireza Heshmati) — see the report |
 
-## Large files
+## Datasets
 
-Datasets (Fashion-MNIST, the CARLA camera/mask images for U-Net, the HW1 test
-CSV) and saved models are on Google Drive under `deep-learning-coursework/`.
-Notebooks expect them in a `data/` folder next to the notebook.
+The datasets are public and not stored here.
+
+| Data | Used in | Source |
+|---|---|---|
+| Fashion-MNIST | 1401-2 HW2 (CNN) | [zalandoresearch/fashion-mnist](https://github.com/zalandoresearch/fashion-mnist); `torchvision.datasets.FashionMNIST` downloads it into `data/` |
+| `data/CameraRGB/`, `data/CameraMask/` | 1401-2 HW2 (U-Net) | Lyft–Udacity self-driving segmentation images — [Kaggle](https://www.kaggle.com/datasets/kumaresanmanickavelu/lyft-udacity-challenge) |
+| `Q1_train.csv`, `Q1_test.csv` | 1400-1 HW1 | Sign Language MNIST — [Kaggle](https://www.kaggle.com/datasets/datamunge/sign-language-mnist) (`sign_mnist_train.csv` / `sign_mnist_test.csv`) |
+
+`1401-2-soleymani/HW2_CNN/cnn_model` is the trained CNN from HW2. Small
+course-provided files (`my_test.csv`, `NVDA.csv`, `Persian_names.csv`, …) are kept
+next to their notebooks.

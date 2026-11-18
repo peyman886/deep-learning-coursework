@@ -8,15 +8,6 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Large artifacts live on Google Drive, not in git
-*.zip
-*.tar.gz
-*.h5
-*.pt
-*.pth
-*.ckpt
-*.pptx
-
 # OS / editors
 .DS_Store
 Thumbs.db
@@ -24,6 +15,3 @@ desktop.ini
 .idea/
 .vscode/
 ~$*
-
-# Datasets live on Google Drive
-**/data/
